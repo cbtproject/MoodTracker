@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CustomTheme" parent="@android:style/Theme.Light">
+
+
+		<item name="android:listViewStyle">@style/Widget.ListView</item>
+		<item name="android:listSeparatorTextViewStyle">@style/WidgetTextViewListSeparator</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="CustomThemeNoTitle" parent="@style/CustomTheme">
+		<item name="android:windowNoTitle">false</item>
+	</style>
+
+
+
+	<!--<style name="CustomThemeBlank" parent="Theme.AppCompat.Light.DarkActionBar">-->
+	<!--<item name="android:windowBackground">@null</item>-->
+	<!--</style>-->
+
+	<style name="CustomThemeBlank" parent="CustomThemeNoTitle">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:windowBackground">@null</item>
+	</style>
+</resources>
